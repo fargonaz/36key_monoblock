@@ -3,7 +3,7 @@
 / {
     default_layout: default_layout {
         compatible = "zmk,physical-layout";
-        display-name = "mono36";
+        display-name = "mono36_studio";
 
         keys
             = <&key_physical_attrs 100 100    0   37       0     0     0>
