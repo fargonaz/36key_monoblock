@@ -5,15 +5,11 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include "default_layout.dtsi"
 
-/ {
-
-  default_layout: default_layout {
-    compatible = "zmk,physical-layout";
-    display-name = "Default Layout";
-    transform = <&default_transform>;
-    kscan = <&kscan0>;
-  };
+&default_layout {
+  transform = <&default_transform>;
+};
 
     chosen {
         zmk,physical-layout = &default_layout;

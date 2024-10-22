@@ -2,4 +2,4 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_MONO36_STUDIO
-    def_bool $(shields_list_contains,mono36)
+    def_bool $(shields_list_contains,mono36_studio)

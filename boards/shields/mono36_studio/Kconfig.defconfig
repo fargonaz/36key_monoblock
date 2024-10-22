@@ -6,8 +6,8 @@ if SHIELD_MONO36_STUDIO
 config ZMK_KEYBOARD_NAME
     default "MONO36_STUDIO"
 
-config ZMK_SPLIT
-    default y
+#config ZMK_SPLIT
+#    default y
 
 config ZMK_BLE
     default y

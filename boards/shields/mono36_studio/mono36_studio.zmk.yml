@@ -2,7 +2,7 @@ file_format: "1"
 id: mono36_studio
 name: MONO36_STUDIO
 type: shield
-url: https://github.com/fargonaz/mono36
+url: https://github.com/fargonaz/36key_monoblock
 requires: [pro_micro]
 features:
   - keys
