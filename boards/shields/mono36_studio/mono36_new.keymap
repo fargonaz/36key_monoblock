@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include "mouse.dtsi"
 //////
-/ {
-    chosen {
+// {
+//    chosen {
         // 34 keys.
 
 //        zmk,matrix-transform = &default_transform;
@@ -20,8 +20,8 @@
         // 33 keys. Center two thumb keys replaced by a single 2u key. Remember to adjust your
         // keymap accordingly!
         // zmk,matrix-transform = &single_2u_transform;
-    };
-};
+//    };
+//};
 
 / {
     behaviors {
