@@ -1,10 +1,10 @@
 # Copyright (c) 2023 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_MONO36_STUDIO
+if SHIELD_STUDIO
 
 config ZMK_KEYBOARD_NAME
-    default "MONO36_STUDIO"
+    default "STUDIO"
 
 #config ZMK_SPLIT
 #    default y
