@@ -111,8 +111,14 @@
                      &trans  &kp TAB  &kp BSPC         &kp ENTER  &kp SPACE  &trans
             >;
         };
-        extra1 {
-            status = "reserved";
+        colemak {
+        display-name = "colemak";
+        bindings = <
+&kp Q  &kp W  &kp F  &kp P   &kp G    &kp J     &kp L  &kp U      &kp Y      &kp SEMI
+&rpi_a LEFT_GUI A  &rpi LALT R  &rpi_a LCTRL S  &rpi LSHFT T  &kp G      &kp H     &rpi RSHFT N  &rpi LCTRL K  &rpi_a LALT L  &rpi RGUI O
+&kp Z  &kp X  &kp C  &kp V   &kp B    &kp K     &kp M  &kp COMMA  &kp DOT    &kp SLASH
+             &trans  &kp TAB  &mo 1             &trans &kp ENTER  &kp SPACE  
+            >;
         }; 
         extra2 {
             status = "reserved";
