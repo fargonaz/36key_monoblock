@@ -111,5 +111,11 @@
                      &trans  &kp TAB  &kp BSPC         &kp ENTER  &kp SPACE  &trans
             >;
         };
+        extra1 {
+            status = "reserved";
+        }; 
+        extra2 {
+            status = "reserved";
+        };
     };
 };
