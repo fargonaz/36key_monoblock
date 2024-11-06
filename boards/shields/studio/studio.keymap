@@ -80,6 +80,30 @@
             bindings = <&mo LOWER>;
             layers = <1>;
      };
+     combo_lshift {
+            timeout-ms = <100>;
+            key-positions = <1 11>;
+            bindings = <&kp LSHFT>;
+            layers = <1>;
+     };
+     combo_rshift {
+            timeout-ms = <100>;
+            key-positions = <8 18>;
+            bindings = <&kp LSHFT>;
+            layers = <1>;
+     };
+     combo_rctrl {
+            timeout-ms = <100>;
+            key-positions = <6 16>;
+            bindings = <&kp LCTRL>;
+            layers = <1>;
+     };
+     combo_rgui {
+            timeout-ms = <100>;
+            key-positions = <14 24>;
+            bindings = <&kp RGUI>; 
+            layers = <1>;
+     }; 
   };
 };
 
